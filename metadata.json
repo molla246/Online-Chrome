@@ -1,0 +1,6 @@
+{
+  "name": "Google Chrome Web Browser",
+  "description": "একটি শক্তিশালী গুগল ক্রোম ওয়েব ব্রাউজার যা ডেক্সটপ এবং মোবাইল উভয় মোডে কাজ করে। দ্রুত সার্চ, রিয়েল ওয়েব পেজ ব্রাউজিং, ট্যাব ম্যানেজমেন্ট এবং হিস্ট্রি সুবিধা।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.4);
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 0.7);
+  }
+}
+
+/* Chrome tab curve shape */
+.chrome-tab-shape {
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.chrome-tab-shape.active {
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Tab separator line */
+.tab-separator {
+  position: absolute;
+  right: -1px;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background-color: rgba(148, 163, 184, 0.4);
+}
